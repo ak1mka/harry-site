@@ -1,0 +1,253 @@
+@import 'nullstyle.css';
+@import url("https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  background: #d9d9d9;
+}
+
+header {
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+.logo {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 55px;
+  font-family: "Jolly Lodger", serif;
+  color: black;
+}
+
+.menu {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-top: 20px;
+  background: #fff;
+  border-radius: 15px;
+  display: flex;
+}
+
+.menu__item {
+  margin-left: 30px;
+}
+
+.x {
+  height: 50px;
+  transition: 0.3s ease;
+}
+
+.x:hover {
+  transform: scale(1.2);
+}
+
+.telega {
+  height: 50px;
+  width: auto;
+  transition: 0.3s ease;
+}
+
+.telega:hover {
+  transform: scale(1.2);
+}
+
+.harry {
+  height: 55px;
+}
+
+.linkbuy {
+  font-family: "Jolly Lodger", serif;
+  font-size: 55px;
+  text-decoration: none;
+}
+
+.linkbuy2 {
+  margin-left: 30px;
+  margin-right: 20px;
+  font-family: "Jolly Lodger", serif;
+  font-size: 55px;
+  text-decoration: none;
+}
+
+a {
+  color: #000000;
+}
+
+/*Main*/
+main {
+  max-width: 1700px;
+  margin: 0 auto;
+  font-family: "Jolly Lodger", serif;
+  justify-content: center;
+  text-align: center;
+}
+
+.maintext {
+  font-size: 200px;
+}
+
+.maininfo {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.harryimg {
+  height: 200px;
+}
+
+.about {
+  margin-top: 50px;
+  max-width: 1800px;
+  display: flex;
+  text-align: left;
+  font-size: 56px;
+  margin-bottom: 50px;
+}
+
+.textabout h1 {
+  font-size: 78px;
+}
+
+.img__about1 {
+  height: 200px;
+}
+
+.img__about {
+  height: 350px;
+}
+
+.text_how {
+  font-size: 130px;
+  margin-bottom: 50px;
+}
+.text_how .text {
+  text-shadow: 4px 4px 7px #374034;
+}
+
+.how {
+  margin: 0 auto;
+  max-width: 1700px;
+}
+
+.plan {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 200px;
+}
+.plan .icon {
+  box-shadow: 1px 1px 1px black;
+  padding-top: 30px;
+  font-size: 70px;
+  background: #fff;
+  width: 300px;
+  height: 350px;
+  border-radius: 30px;
+  margin-bottom: 230px;
+}
+.plan .icon .how__img {
+  margin-top: 10px;
+  height: 80px;
+  margin-bottom: 40px;
+}
+.plan .icon .how__img .staping {
+  font-size: 56px;
+}
+.plan .icon .staping {
+  font-size: 56px;
+}
+
+.adress__string {
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  align-items: center;
+}
+
+.adress__titel {
+  font-size: 110px;
+  margin-bottom: 30px;
+}
+
+.adress__contact {
+  max-width: 900px;
+  width: 100%;
+  text-align: center;
+  font-size: 56px;
+}
+.adress__contact p {
+  line-height: 80px;
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+
+.adress {
+  margin-bottom: 300px;
+}
+
+.adress__button__copy {
+  color: black;
+  font-size: 50px;
+  height: 100px;
+  width: 300px;
+  border-radius: 15px;
+}
+
+.adress__button__copy:hover {
+  background: #cacccf;
+}
+
+.adress__button__copy:active {
+  background: #b9bdc4;
+}
+
+.adress__gif {
+  display: block;
+  margin-left: 120px;
+  border-radius: 30px;
+}
+
+.tokenomics {
+  margin-bottom: 100px;
+}
+
+.tokenomics__titel {
+  font-size: 110px;
+  margin-bottom: 50px;
+}
+
+.tokenomics__main {
+  font-size: 56px;
+}
+
+.tokenomics__main {
+  display: flex;
+  justify-content: left;
+  text-align: left;
+}
+
+.harrymics {
+  height: 400px;
+}
+
+.airdrop__titel {
+  font-size: 110px;
+}
+
+.airdrop__main {
+  font-size: 56px;
+  display: flex;
+}
+
+.airdropharry {
+  height: 400px;
+}
+
+.telegrambot {
+  display: block;
+  height: 60px;
+  width: 300px;
+  background: #fff;
+  border-radius: 15px;
+  margin-top: 10px;
+}/*# sourceMappingURL=styles.css.map */
